@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+
+<table width="100%" height="100%">
+    <tr> 
+        
+        <p align="center">  
+            <img class = "foto_perfil" src="images/foto_perfil.png" alt="FotoPerfil" align="left">
+                <font  face = "verdana" size = "50px">FERNANDO</font>
+                <font class= "gradiente" face = "verdana">DOMINGUEZ <br/></font>
+                <font size=3>
+                    <br/>Bs. As. - Argentina<br/>
+                    Edad : 29 años<br/>
+                    Email : mfldominguez@gmail.com
+                    </font>
+                    <div align="center">
+                        <h4>SOCIAL MEDIA</h4>
+                        <a href="https://www.instagram.com/feer_domingueez/"><img src="images/icono_instagram.png" alt="Instagram" width="48" height="48"></a>
+                        <a href="https://www.linkedin.com/in/fernando-dominguez-0a407a19a/"><img src="images/icono_linkedin.png" alt="Linkedin" width="48" height="48"></a>
+                        <a href="https://github.com/Feer-Dom/"><img src="images/icono_github.png" alt="Github" width="48" height="48"></a>
+                        <a href="mailto:mfldominguez@gmail.com?subject=Questions"><img src="images/icono_gmail.png" alt="Gmail" width="48" height="48"></a>
+                    </div>
+                    
+        </p>
+       
+    </tr>
+
+    <tr>
+        <td bgcolor=#DADADA>          
+            <br/>
+                <p>
+                    <font class="titulo">FORMACION ACADEMICA<br/><br/></font>
+                    <a href="https://www.frgp.utn.edu.ar/"><img src="images/icono_utn.png" alt="Utn-FRGP" width="20" height="20"></a>
+                    <font class="parrafo"> Técnico Univ. en Programación 2019 (en curso) . UTN-FRGP</font><br/>
+                    <a href="https://eest3si.wixsite.com/tec3"><img src="images/icono_escuela_secundaria.webp" alt="E.E.T.N 3" width="20" height="20"></a>
+                    <font class="parrafo"> Técnico Electrónico 2008. E.E.T N 3 - SAN ISIDRO </font><br/>
+                </p>
+        </td>
+        <td width="50%" bgcolor=#DC0000>
+            <p> <font class="titulo">EXPERIENCIA LABORAL<br/><br/></font>
+                <font class="parrafo">ALFAPARF S.A.| Técnico de Mantenimiento
+                    Febrero 2018 – Febrero 2020<br/>
+                    O.A.M. S.A| Técnico de Mantenimiento
+                    Agosto 2015 - Febrero 2018<br/>
+                    TEC SERVICE S.A | Técnico de Mantenimiento
+                    Abril 2013 - Julio 2015
+                </font>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor=#DC0000>
+            <p>
+                <font class="titulo">MISION<br/><br/></font>
+                <font class="parrafo">Soy una persona responsable, capaz de cumplir con mis obligaciones laborales de manera rápida y eficaz.<br/>
+                Siempre estoy dispuesto a aprender y a escuchar a mis compañeros en busca de mejorar.
+                </font>
+            </p>
+        </td>
+        <td width="50%" bgcolor=#DADADA>
+            <p>
+                <font class="titulo">CONOCIMIENTOS</font>
+                <table width="100%">
+                    <tr>
+                        <tr>
+                            <th>
+                                <font class="parrafo">IDIOMAS</font>
+                            </th>
+                            <th>
+                                <font class="parrafo">LENGUAJES</font>
+                            </th>
+                            <th>
+                                <font class="parrafo">SOFTWARE</font>
+                            </th>
+                        </tr>
+                        <td width="33%" align="center">
+                            <font class="parrafo">
+                                Español : Nativo<br/>
+                                Ingles : Intermedio
+                            </font>
+                        </td>
+                        <td width="33%" align="center">
+                            <font class="parrafo">
+                                C ++<br/>
+                                C #<br/>
+                                SQL<br/>
+                                HTML<br/>
+                                JavaScript
+                            </font>
+                            <td width="33%" align="center">
+                                <font class="parrafo">
+                                    Visual Studio<br/>
+                                    Paquete Office<br/>
+                                </font>
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </td>
+    </tr>
+</table>
+<p align="center"><font>Escribeme un mensaje</font></p>
+<table align="center" border="1"> 
+    <tr>
+        <td align="center" colspan="2">
+            <font size=5 color="white" face="verdana">CONTACTO</font>
+        </td>
+    </tr>
+    <tr>
+        <td>
+                <label class="label" for="">Apellido y Nombre</label> 
+        </td>
+        <td>
+                <input id="txt1" type="text">
+        </td>
+    </tr>
+    <tr>
+           <td>
+                <label class="label" for="">Email</label> 
+            </td>
+            <td>
+                <input id="txt2" type="text">
+            </td>
+    </tr>
+    <tr>
+            
+            <td>
+                <label class="label" for="">Mensaje</label> 
+            </td>
+            <td>
+                <input style="width: 300px;height: 300px;" id="txt3" type="text">
+            </td>
+    </tr>
+    </table>
+<div align="center">
+    <button onclick="Validar()">Enviar</button>
+</div>
+    
+</body>
+</html>
